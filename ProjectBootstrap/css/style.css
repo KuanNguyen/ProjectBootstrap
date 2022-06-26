@@ -1,0 +1,49 @@
+.parent{
+    display: flex;
+    width:200px;
+    height:200px;
+    background-color: palevioletred;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .child{
+    width:50px;
+    height:50px;
+    padding: 10px;
+    background-color: cornflowerblue;
+   }
+
+   .services{
+    background-color: black;
+   }
+
+   .services button{
+    background-color: #ff0e83;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+   }
+   .services button:hover  {
+    background-color: #fff;
+    color: #ff0e83;
+    border: 1px solid #ff0e83;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(3, 50px);
+    background: #9AE66E;
+   }
+   .sidebar {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    background: #FF5959;
+   }
+   .main {
+    grid-column: 1 / span 2;
+    grid-row: 2 / 3;
+    background: #548CFF;
+   }
